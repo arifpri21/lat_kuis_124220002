@@ -22,6 +22,7 @@ class HomePage extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: const Color.fromARGB(255, 7, 145, 237),
           foregroundColor: Colors.white,
+          centerTitle: true,
           title: const Text(
             'Home',
             textAlign: TextAlign.center,
